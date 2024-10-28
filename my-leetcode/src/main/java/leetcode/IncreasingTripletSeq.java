@@ -12,7 +12,6 @@ import java.util.logging.Logger;
 import org.roaringbitmap.RoaringBitmap;
 
 
-import com.zaxxer.sparsebits.SparseBitSet;
 
 public class IncreasingTripletSeq {
 	public static Logger logger = Logger.getLogger(IncreasingTripletSeq.class.getName());
