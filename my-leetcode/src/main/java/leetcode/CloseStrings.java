@@ -105,7 +105,7 @@ public class CloseStrings {
 					mapWord1.remove(first);
 					mapWord2.remove(first);
 				}
-				if (mapWord1.get(second).intValue() == mapWord2.get(second).intValue())	{
+				if (first!=second && mapWord1.get(second).intValue() == mapWord2.get(second).intValue())	{
 					li.remove(li.indexOf(second));
 					mapWord1.remove(second);
 					mapWord2.remove(second);
