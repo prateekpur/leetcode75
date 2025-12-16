@@ -25,6 +25,4 @@ public class TopKElements {
         }
     	return count;
     }
-
-
 }
