@@ -10,7 +10,7 @@ public class EncodeDecode {
 		words.add("1,23");
 		words.add("45,6");
 		words.add("7,8,9");
-		words.add("say");
+		//words.add("say");
 		//words.add("#");
 		//words.add("yes");
 		String encoded = ele.encode(words);
