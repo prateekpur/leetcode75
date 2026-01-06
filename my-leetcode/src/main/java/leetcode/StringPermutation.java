@@ -45,6 +45,9 @@ public class StringPermutation {
     		--s1Freq[s.charAt(i) - aVal];
     	}
     	//check if frequency array is 0
+    	for (int i : s1Freq)	{
+    		if (i != 0)	return false;
+    	}
     	return true;
     }
 }
