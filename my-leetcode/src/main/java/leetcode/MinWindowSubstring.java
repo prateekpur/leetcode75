@@ -26,10 +26,10 @@ public class MinWindowSubstring {
     			}	else if (sub.length() > (j+1 -i))	{
     				sub = s.substring(i,  j+1);
     			}
-    			System.out.println(sub);
+    			//System.out.println(sub);
     		}
     	}
-		System.out.println("Result : " + sub);
+		//System.out.println("Result : " + sub);
         return  sub;
     }
     
